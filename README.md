@@ -32,4 +32,8 @@ Clone the repo or simply download the docker-compose.yml and run command:
  
 The keyserver will be up and it will listen on port 5000 so it should be open.
     
-    
+# Turn off the keyserver
+
+Simply run:
+
+docker-compose down
