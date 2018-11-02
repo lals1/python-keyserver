@@ -21,7 +21,7 @@ There are four endpoint for working with this Keyserver. These endpoint require 
     curl -s "Keyserver_URL:5000/showallkeys
     
     
-# Get the docker image from Docker hub
+# Get the docker image from DockerHub
 
 This keyserver is packaged in the docker image with all the dependecies installed and available at DockerHub
 
@@ -37,7 +37,7 @@ Clone the repo or simply download the docker-compose.yml and run command:
  
 The keyserver will be up and it will listen on port 5000 so it should be open.
     
-# Turn off the keyserver
+# Turning off the keyserver
 
 Simply run:
 
