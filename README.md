@@ -21,7 +21,12 @@ There are four endpoint for working with this Keyserver. These endpoint require 
     curl -s "Keyserver_URL:5000/showallkeys
     
     
-    
+# Get the docker image from Docker hub
+
+This keyserver is packaged in the docker image with all the dependecies installed and available at DockerHub
+
+docker pull lals1/keyserver:latest
+  
 # Running the keyserver
 
 Prerequisite: latest docker and docker-compose installed.
