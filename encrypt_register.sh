@@ -15,4 +15,4 @@ mkfs.ext4 /dev/mapper/encrypted
 
 mount /dev/mapper/encrypted /mnt
 
-curl -s "http://188.166.62.200:5000/updatekey?uid=$uid&cryptokey=$key"
+curl -s "http://keyserver_url:5000/updatekey?uid=$uid&cryptokey=$key"
